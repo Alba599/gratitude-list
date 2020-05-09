@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/gratitude-list/static/css/main.ce838590.chunk.css",
-    "main.js": "/gratitude-list/static/js/main.5341a77d.chunk.js",
-    "main.js.map": "/gratitude-list/static/js/main.5341a77d.chunk.js.map",
+    "main.js": "/gratitude-list/static/js/main.50af60b1.chunk.js",
+    "main.js.map": "/gratitude-list/static/js/main.50af60b1.chunk.js.map",
     "runtime-main.js": "/gratitude-list/static/js/runtime-main.8b5ea780.js",
     "runtime-main.js.map": "/gratitude-list/static/js/runtime-main.8b5ea780.js.map",
     "static/css/2.81e2c8a5.chunk.css": "/gratitude-list/static/css/2.81e2c8a5.chunk.css",
     "static/js/2.71e8b8c9.chunk.js": "/gratitude-list/static/js/2.71e8b8c9.chunk.js",
     "static/js/2.71e8b8c9.chunk.js.map": "/gratitude-list/static/js/2.71e8b8c9.chunk.js.map",
     "index.html": "/gratitude-list/index.html",
-    "precache-manifest.e890df7caae3e59c115d31b6258a67dd.js": "/gratitude-list/precache-manifest.e890df7caae3e59c115d31b6258a67dd.js",
+    "precache-manifest.c535f3e040c54f05bbfed47115c0362b.js": "/gratitude-list/precache-manifest.c535f3e040c54f05bbfed47115c0362b.js",
     "service-worker.js": "/gratitude-list/service-worker.js",
     "static/css/2.81e2c8a5.chunk.css.map": "/gratitude-list/static/css/2.81e2c8a5.chunk.css.map",
     "static/css/main.ce838590.chunk.css.map": "/gratitude-list/static/css/main.ce838590.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.81e2c8a5.chunk.css",
     "static/js/2.71e8b8c9.chunk.js",
     "static/css/main.ce838590.chunk.css",
-    "static/js/main.5341a77d.chunk.js"
+    "static/js/main.50af60b1.chunk.js"
   ]
 }
