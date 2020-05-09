@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/gratitude/static/css/main.ce838590.chunk.css",
+    "main.js": "/gratitude/static/js/main.5341a77d.chunk.js",
+    "main.js.map": "/gratitude/static/js/main.5341a77d.chunk.js.map",
+    "runtime-main.js": "/gratitude/static/js/runtime-main.d084a9f3.js",
+    "runtime-main.js.map": "/gratitude/static/js/runtime-main.d084a9f3.js.map",
+    "static/css/2.81e2c8a5.chunk.css": "/gratitude/static/css/2.81e2c8a5.chunk.css",
+    "static/js/2.71e8b8c9.chunk.js": "/gratitude/static/js/2.71e8b8c9.chunk.js",
+    "static/js/2.71e8b8c9.chunk.js.map": "/gratitude/static/js/2.71e8b8c9.chunk.js.map",
+    "index.html": "/gratitude/index.html",
+    "precache-manifest.293a8bee00e51d9ca76453c0e38deb73.js": "/gratitude/precache-manifest.293a8bee00e51d9ca76453c0e38deb73.js",
+    "service-worker.js": "/gratitude/service-worker.js",
+    "static/css/2.81e2c8a5.chunk.css.map": "/gratitude/static/css/2.81e2c8a5.chunk.css.map",
+    "static/css/main.ce838590.chunk.css.map": "/gratitude/static/css/main.ce838590.chunk.css.map",
+    "static/js/2.71e8b8c9.chunk.js.LICENSE.txt": "/gratitude/static/js/2.71e8b8c9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d084a9f3.js",
+    "static/css/2.81e2c8a5.chunk.css",
+    "static/js/2.71e8b8c9.chunk.js",
+    "static/css/main.ce838590.chunk.css",
+    "static/js/main.5341a77d.chunk.js"
+  ]
+}
