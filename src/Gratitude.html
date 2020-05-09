@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gratitude Journal</title>
+    <link rel="stylesheet" href="gratitude-styles.css">
+    <script src="javascript.js"></script>
+</head>
+
+<body onload="getChar()">
+    <div class="picture">
+        <div class="login">
+            <div class="link-button">
+                <a href="SecondGratitude.html">About</a>
+            </div>
+            <div class="link-button">
+                <a href="ThirdPage.html" id="about">Login</a>
+            </div>
+        </div>
+        <div class="title">
+            <h1>Gratitude Journal</h1>
+        </div>
+        <div class="quote">
+            <p class="tagline">You are the creator of your life </p>
+        </div>
+    </div>
+    <p id="importance">The importance of Gratitude</p>
+    <ul>
+        <li>Gratitude shifts your focus</li>
+        <li>It improves the quality of your life</li>
+    </ul>
+    <ul>
+        <li>Makes you feel happy</li>
+        <li>Helps you reach your goals</li>
+    </ul>
+    <ul>
+        <li>Improves your relationships</li>
+        <li>Attracts more money</li>
+    </ul>
+
+    <div class="paragraph">People often accumulate great wealth only to lose their fortune and gain it again in cycles.
+        She argues this is due to the law of attraction. People lose money because they allow “fearful
+        thoughts of losing wealth to enter their minds,” causing their fears to be realized.
+        Once the money is gone, their fear disappears as well, and they are able to focus on rebuilding their fortune.
+        This is the law of attraction in a nutshell – if you think it, it will happen.
+
+        <p>“Like attracts like” – so envisioning
+            riches will actually bring you wealth. Byrne means this literally. She believes that thoughts are magnetic,
+            emitting a
+            positive or negative frequency. Whatever thoughts you send out into the Universe will attract similar
+            energies before
+            returning like a boomerang. She explains, this is not different to watching TV. You receive a signal that
+            the channel
+            is programmed to send you. If you want to see something different, you have to change the channel. Thus the
+            importance
+            of positive thinking and sending the right frequency into the Universe. </p>
+
+        <p>Byrne notes that “your life right now is a reflection of your past thoughts.” If you’re doing well, you’ve
+            been thinking
+            positively. If not, it’s because you’ve been too negative. Byrne points out that most people don’t even
+            realize they are thinking negatively. The problem is that the Universe doesn’t
+            understand the word “no.” As a result, the Universe interprets “I don’t want to be late” as “I’ll be late.”
+        </p>
+
+        <p>Throughout the chapter, Byrne explains the science behind the law of attraction. She claims that it is
+            supported by quantum
+            physics, where the consensus is that the mind is powerful enough to create anything – including the Universe
+            itself. Thus, the
+            law of attraction is a law of nature. Like gravity, it applies whether you know it or not. The benefit of
+            understanding the
+            law of attraction is that you can use it to your advantage once you know how it works. </p>
+
+        <p>Bill Harris, a teacher and founder of Centerpointe Research Institute, shares a story next. A former student
+            named Robert
+            faced constant harassment from his coworkers for being gay. Robert dealt with the stress by complaining to
+            his teacher,
+            who encouraged him to focus instead on his passion of becoming a stand-up comedian. Within 8 weeks of this
+            change, the bully
+            coworkers either left the company or were transferred to a different department. </p>
+
+        <p>Byrne explains that it takes more than a single negative thought for bad things to happen. She claims you can
+            start changing
+            the way you think by becoming aware of your thoughts, suggesting 10 minutes of meditation per day. Negative
+            thinking is
+            extremely powerful, and Byrne ends by warning the reader that the 1st step to a better life is changing your
+            attitude. </p>
+    </div>
+    <div class="question">How happy are you with your life?
+        <br>
+        <input name="isue_quantity" type="range" min="1" max="15" />
+        <p id="question">What is it that you want to improve in your life?</p>
+        <select>
+            <option value="relationships">Relationships</option>
+            <option value="health">Health</option>
+            <option value="finances">Finances</option>
+        </select>
+    </div>
+
+    <section class="moreinfo">
+        <p class="list1">
+            <em>Furthermore</em> gratitude attracts positive situations in your life such as:
+            <ol id="numberedlist">
+                <li>Healthy relationships</li>
+                <li>Sucessful career</li>
+            </ol>
+            <p class="paragraph2">The law of attraction is always at work. If you think you have no control over your
+                destiny,
+                then you will attract situations that render you helpless. The trick,
+                she says, is to tell the Universe you have control over your life.
+
+                Byrne offers a tip to tell whether you’re thinking negatively: listen to your body.
+                Too much worrying often brings pain in your stomach or chest. Byrne goes one step further,
+                arguing that these feelings are actually a message from the Universe. She quips this is the
+                Universe’s way of saying “Warning! Change thinking now. Negative frequency recording. Change frequency.
+                Warning!”
+
+                Byrne closes by introducing the concept of “Secret Shifters.” These are activities that can
+                help brighten your spirits so you don’t stay focused on negativity. Byrne suggests making a list
+                of things that can help shift mood in times of distress, such as a fun song or thinking of a loved one.
+            </p>
+            <p id="info">Click below for more information about the benefits of gratitude</p>
+            <a
+                href="https://greatergood.berkeley.edu/article/item/how_gratitude_changes_you_and_your_brain">GratitudeWeb</a>
+        </p>
+    </section>
+    <div class="last">
+        <h4 id="thankful">What are you thankful for today?</h4>
+        <input id="textbox" type="text" maxlength="250" onkeyup="Count()"
+            placeholder="What are you thankful for today?" />
+        <div>You have <span id="display"></span> characters left, out of 250</div>
+    </div>
+</body>
+
+</html>
