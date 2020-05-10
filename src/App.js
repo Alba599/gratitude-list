@@ -32,31 +32,33 @@ class App extends React.Component {
         <React.Fragment>
           <NavBar />
         </React.Fragment>
-        <form onSubmit={this.handleSubmit}>
-          <label>
+        <div class="myForm">
+          <form onSubmit={this.handleSubmit}>
+            <label>
+              <input
+                class="col-lg-1 col-centered"
+                type="text"
+                value={this.state.value}
+                onChange={this.handleChange}
+                style={{ margin: "20px" }}
+                className="form-control"
+                placeholder="My list of blessings"
+              />
+            </label>
             <input
               class="col-lg-1 col-centered"
-              type="text"
-              value={this.state.value}
-              onChange={this.handleChange}
-              style={{ margin: "20px" }}
-              className="form-control"
-              placeholder="My list of blessings"
+              type="submit"
+              value="Submit"
+              style={{ margin: "40px" }}
+              className="btn btn-secondary btn-sm"
             />
-          </label>
-          <input
-            class="col-lg-1 col-centered"
-            type="submit"
-            value="Submit"
-            style={{ margin: "40px" }}
-            className="btn btn-secondary btn-sm"
-          />
-          <ul>
-            {this.state.myArray.map((item) => (
-              <li>{item}</li>
-            ))}
-          </ul>
-        </form>
+            <ul>
+              {this.state.myArray.map((item) => (
+                <li>{item}</li>
+              ))}
+            </ul>
+          </form>
+        </div>
       </div>
     );
   }
