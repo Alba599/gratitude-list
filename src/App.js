@@ -2,6 +2,7 @@ import React from "react";
 // import logo from './logo.svg';
 import "bootstrap/dist/css/bootstrap.css";
 import NavBar from "./navbar";
+import Child from "./Child";
 import "./App.css";
 
 class App extends React.Component {
@@ -24,6 +25,12 @@ class App extends React.Component {
     }));
 
     event.preventDefault();
+  };
+
+  delete = (index) => {
+    this.setState((prevState) => ({
+      myArray: prevState.myArray.filter((el, i) => i != index),
+    }));
   };
 
   render() {
@@ -53,10 +60,13 @@ class App extends React.Component {
               className="btn btn-secondary btn-sm"
             />
             <ul>
+              <Child delete={this.delete} data={this.state.myArray} />
+            </ul>
+            {/* <ul>
               {this.state.myArray.map((item) => (
                 <li>{item}</li>
               ))}
-            </ul>
+            </ul> */}
           </form>
         </div>
       </div>
