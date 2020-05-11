@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import Form from "./Form";
+// import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -23,7 +25,7 @@ const NavBar = () => {
           My List
         </span>
       </a>
-      <a href="#">
+      <a href="/Form.js">
         <span
           className="badge badge-pill badge-secondary"
           style={{ margin: "20px" }}
