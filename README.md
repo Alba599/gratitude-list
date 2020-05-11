@@ -1,3 +1,11 @@
+The url for the project is: https://alba599.github.io/gratitude-list/
+
+User Stories:
+
+1. As a gratitude practitioner, I want to have a website to list my blessings.
+2. As a hard worker, I want to remind myself my blessings in the website so I can remind myself to be happy when I am busy.
+3. As a student, I want to build a habit of being grateful.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
