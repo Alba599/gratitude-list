@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Form from "./Form";
 // import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-const NavBar = () => {
+const NavBar = (props) => {
   return (
     <nav className="navbar navbar-light bg-light">
       {/* <a className="navbar-brand" href="Gratitude.html">
@@ -17,7 +17,7 @@ const NavBar = () => {
           Home
         </span>
       </a>
-      <a href="">
+      <a href="#" onClick={() => props.updateHandler("#")}>
         <span
           className="badge badge-pill badge-secondary"
           style={{ margin: "20px" }}
@@ -25,7 +25,7 @@ const NavBar = () => {
           My List
         </span>
       </a>
-      <a href="/Form.js">
+      <a href="#contact" onClick={() => props.updateHandler("#contact")}>
         <span
           className="badge badge-pill badge-secondary"
           style={{ margin: "20px" }}
