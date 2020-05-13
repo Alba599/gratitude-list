@@ -4,11 +4,11 @@ import BlessingList from "./BlessingList";
 
 class HashRouter extends React.Component {
   render() {
-    // if (this.props.route === "#contact") {
-    //   return <Form />;
-    // } else {
-    //   return <BlessingList />;
-    // }
+    if (this.props.route === "#contact") {
+      return <Form />;
+    } else {
+      return <BlessingList />;
+    }
     /*
     switch ( this.props.route ) {
         case "#contact": 
