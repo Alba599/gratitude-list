@@ -13,7 +13,12 @@ class Child extends React.Component {
         {this.props.data.map((el, i) => (
           <div key={el.id}>
             <span>{el.value}</span>
-            <button onClick={this.delete.bind(this, i)}>delete</button>
+            <button
+              style={{ margin: "5px" }}
+              onClick={this.delete.bind(this, i)}
+            >
+              delete
+            </button>
           </div>
         ))}
       </div>
