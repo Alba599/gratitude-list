@@ -6,11 +6,13 @@ class Child extends React.Component {
   }
 
   render() {
+    console.log(this.props.data);
+
     return (
       <div>
         {this.props.data.map((el, i) => (
-          <div key={i}>
-            <span>{el}</span>
+          <div key={el.id}>
+            <span>{el.value}</span>
             <button onClick={this.delete.bind(this, i)}>delete</button>
           </div>
         ))}

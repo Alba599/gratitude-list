@@ -5,8 +5,8 @@ class BlessingList extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      nextId: 0,
       value: "",
-      display: "",
       myArray: [],
     };
   }
@@ -16,11 +16,19 @@ class BlessingList extends React.Component {
   };
 
   handleSubmit = (event) => {
-    this.setState((previousState) => ({
-      myArray: [...previousState.myArray, this.state.value],
-    }));
-
     event.preventDefault();
+
+    this.setState((previousState) => {
+      var newItem = {
+        value: previousState.value,
+        id: previousState.nextId,
+      };
+      return {
+        myArray: [...previousState.myArray, newItem],
+        nextId: previousState.nextId + 1,
+        value: "",
+      };
+    });
   };
 
   delete = (index) => {
@@ -31,25 +39,23 @@ class BlessingList extends React.Component {
 
   render() {
     return (
-      <div class="myForm">
+      <div className="myForm">
         <form onSubmit={this.handleSubmit}>
           <label>
             <input
-              class="col-lg-1 col-centered"
+              className="form-control"
               type="text"
               value={this.state.value}
               onChange={this.handleChange}
               style={{ margin: "20px" }}
-              className="form-control"
               placeholder="My list of blessings"
             />
           </label>
           <input
-            class="col-lg-1 col-centered"
+            className="btn btn-secondary btn-sm"
             type="submit"
             value="Submit"
             style={{ margin: "40px" }}
-            className="btn btn-secondary btn-sm"
           />
           <ul>
             <Child delete={this.delete} data={this.state.myArray} />

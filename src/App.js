@@ -1,7 +1,7 @@
 import React from "react";
 // import logo from './logo.svg';
 import "bootstrap/dist/css/bootstrap.css";
-import NavBar from "./navbar";
+import NavBar from "./NavBar";
 import HashRouter from "./HashRouter";
 import "./App.css";
 
