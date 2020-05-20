@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "12d37264f757e0489abc79cde0959978",
+    "revision": "862ed928e73cf25c333a8317a69bf59f",
     "url": "/gratitude-list/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gratitude-list/static/css/2.81e2c8a5.chunk.css"
   },
   {
-    "revision": "f369e6c5d95c54cdca8d",
+    "revision": "69c0632b1bcd105c0fdf",
     "url": "/gratitude-list/static/css/main.544b7d89.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gratitude-list/static/js/2.34965548.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f369e6c5d95c54cdca8d",
-    "url": "/gratitude-list/static/js/main.8a18bd2c.chunk.js"
+    "revision": "69c0632b1bcd105c0fdf",
+    "url": "/gratitude-list/static/js/main.39d9317a.chunk.js"
   },
   {
     "revision": "a390d782fc4e6178f330",
