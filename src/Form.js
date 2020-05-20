@@ -6,7 +6,7 @@ import { render } from "react-dom";
 
 const Form = () => {
   return (
-    <form>
+    <form style={{ margin: "40px" }}>
       <div class="form-group">
         <label for="exampleInputEmail1">Email address</label>
         <input
@@ -40,7 +40,7 @@ const Form = () => {
           Check me out
         </label>
       </div>
-      <button type="submit" class="btn btn-primary">
+      <button type="submit" class="btn btn-primary" style={{ margin: "10px" }}>
         Submit
       </button>
     </form>
