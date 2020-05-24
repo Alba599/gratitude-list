@@ -60,11 +60,6 @@ class BlessingList extends React.Component {
           <ul>
             <Child delete={this.delete} data={this.state.myArray} />
           </ul>
-          {/* <ul>
-    {this.state.myArray.map((item) => (
-      <li>{item}</li>
-    ))}
-  </ul> */}
         </form>
       </div>
     );

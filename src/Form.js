@@ -2,8 +2,6 @@ import React from "react";
 
 import { render } from "react-dom";
 
-// import Form from "./Form";
-
 const Form = () => {
   return (
     <form style={{ margin: "40px" }}>

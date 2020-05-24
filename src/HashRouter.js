@@ -9,14 +9,6 @@ class HashRouter extends React.Component {
     } else {
       return <BlessingList />;
     }
-    /*
-    switch ( this.props.route ) {
-        case "#contact": 
-            return <Form />;
-        default:         
-            return <BlessingList />;
-    }
-*/
   }
 }
 
