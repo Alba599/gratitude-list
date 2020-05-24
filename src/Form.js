@@ -31,13 +31,6 @@ const Form = () => {
         <label for="exampleTextarea">Enter text here</label>
         <textarea class="form-control" id="exampleTextarea" rows="3" />
       </div>
-
-      <div class="form-check">
-        <label class="form-check-label">
-          <input type="checkbox" class="form-check-input" />
-          Check me out
-        </label>
-      </div>
       <button type="submit" class="btn btn-primary" style={{ margin: "10px" }}>
         Submit
       </button>
